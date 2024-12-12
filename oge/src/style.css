@@ -1,0 +1,27 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body {
+    height:100%
+}
+
+.button {
+    /* Основные стили для кнопки */
+    margin: 1%;
+    background-color: rgb(119, 0, 255);
+    border-radius: 50px;
+    height: 75px;
+    width: 350px; /* Зеленый цвет фона */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 1%;
+    border-radius: 50px;
+    width: 350px;
+  }
+  
+  .button:hover { 
+    /* Стиль при наведении курсора */
+    border: 1px solid white; }
